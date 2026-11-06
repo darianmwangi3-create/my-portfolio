@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <!--Website Header-->
+    <header id="home">
+        <h1>Emmanuel's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <a href="cv.pdf" class="cv-button" download>Download Cv</a>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <div class="about-text">
+                <div class="profile-placeholder">
+                    Your Photo Here
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Emmanuel Mwangi</h3>
+                    <p>
+                        I am a student in Zetech University pursuing 
+                        a course in Information Technology
+                    </p>
+                    <p>I'm passionate about technology,solving problems
+                        learning new skills as well as innovative ideas involving tech
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>My Capabilities</h2>
+            <div class="skills container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Creating website structures.</p>
+                </div>
+                <div class ="skill-card">
+                    <h3>CSS</h3>
+                    <p>Designing and styling webpages.</p>
+                </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Writing programs and problem solving</p>
+            </div> 
+            <div class="skill-card">
+                <h3>Database Management</h3>
+                <p>Organising and ensuring data is accurate with proper management</p>
+            </div>          
+         </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                 <div class="project-card">
+                    <h3>My personal Portfolio Website</h3>
+                    <p>
+                        A personal website designed to organise student Information
+                        as well as what I'm working on
+                    </p>
+                    <p><strong>Technologies:</strong>HTML, CSS</p>
+                </div>
+                <div class="project-card">
+                    <h3>Student Bounty System</h3>
+                    <p>
+                        This is a system I made where one gets awarded everytime they do something good
+                        to aid students in making a living
+                    </p>
+                    <p><strong>Technologies</strong>Python, Database</p>
+                </div>
+            
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <p>Email: mwangiemmanuel@zetech.ac.ke</p>
+            <p>Phone: +254 741 041 902</p>
+
+            <form>
+                <label for="name">Your name:</label>
+                <input type="text" id="name"
+                placeholder="Write your name" required>
+                <label for="email">Your email:</label>
+                <input type="email" id="email"
+                placeholder="Write your email" required>
+                <label for="message">Your message</label>
+               <textarea id="message" placeholder="Write your message" required></textarea>
+               <button type="submit">Send message</button>
+            </form>
+        </section>
+        <footer>
+            <p>
+                &copy;2026 My Personal Portfolio.
+                All Rights Reserved.
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
